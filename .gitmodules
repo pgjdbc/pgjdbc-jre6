@@ -1,0 +1,3 @@
+[submodule "pgjdbc"]
+	path = pgjdbc
+	url = https://github.com/pgjdbc/pgjdbc.git
