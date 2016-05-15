@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.postgresql</groupId>
         <artifactId>pgjdbc-core-prevjre</artifactId>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
         <relativePath /><!-- do not print maven warnings when pgjdbc-jre7 is checked out under pgjdbc -->
     </parent>
 
