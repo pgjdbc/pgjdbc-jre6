@@ -13,7 +13,7 @@ env:
 
 script:
   # make sure previous build artifacts are not used for subsequent builds
-  - cd pgjdbc && git reset --hard origin/master
+  - cd pgjdbc && git reset --hard origin/master && cd ..
   - rm -rf $HOME/.m2/repository/org/postgresql || true
   - export JDK6_HOME=$(jdk_switcher home openjdk6)
   - export JDK7_HOME=$(jdk_switcher home openjdk7)
