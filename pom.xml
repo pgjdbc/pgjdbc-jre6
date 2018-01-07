@@ -7,6 +7,7 @@
         <relativePath /><!-- do not print maven warnings when pgjdbc-jre7 is checked out under pgjdbc -->
     </parent>
 
+<groupId>com.github.vlsi.org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
     <packaging>bundle</packaging>
     <name>PostgreSQL JDBC Driver - JDBC 4.0</name>
