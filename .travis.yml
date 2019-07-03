@@ -1,6 +1,10 @@
 dist: trusty
 sudo: false
-language: java
+language: generic
+
+before_install:
+  - sudo apt-get -y update
+  - sudo apt-get -y install openjdk-6-jdk
 
 before_script:
   - psql -U postgres -c "create user test with password 'test';"
