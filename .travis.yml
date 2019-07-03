@@ -1,3 +1,4 @@
+dist: trusty
 sudo: false
 language: java
 
@@ -51,10 +52,6 @@ matrix:
       addons:
         postgresql: "9.2"
       env: PG_VERSION=9.2
-    - jdk: openjdk6
-      addons:
-        postgresql: "9.1"
-      env: PG_VERSION=9.1
 
 # Deploy snapshots to Maven Central
 after_success:
