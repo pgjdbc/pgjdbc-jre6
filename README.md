@@ -9,15 +9,15 @@ This repository includes maven project to build Java 6 compatible (JDBC 4.0) Pos
 ## Info
 
 There are two major cases you might need to build this repository: you want to build custom Java 6 compatible driver, or you want to release pgjdbc. 
-In order to contribute a feature / file a bug report for JDBC driver, please use [JDBC driver](http://github.com/pgjdbc/pgjdbc) main repository.
+In order to contribute a feature / file a bug report for JDBC driver, please use [JDBC driver](https://github.com/pgjdbc/pgjdbc) main repository.
 
-This repository should store only Java 6 specific configurations. At best, all the configuration should be in [pgjdbc-parent-poms](http://github.com/pgjdbc/pgjdbc-parent-poms).
+This repository should store only Java 6 specific configurations. At best, all the configuration should be in [pgjdbc-parent-poms](https://github.com/pgjdbc/pgjdbc-parent-poms).
 
 ## Downloading pre-built drivers
 
 Most people do not need to compile PgJDBC. You can download prebuilt versions of the driver
-from the [Postgresql JDBC site](http://jdbc.postgresql.org/) or using your chosen dependency management tool
-(see details at [PgJDBC driver page](http://github.com/pgjdbc/pgjdbc#downloading-pre-built-drivers) )
+from the [Postgresql JDBC site](https://jdbc.postgresql.org/) or using your chosen dependency management tool
+(see details at [PgJDBC driver page](https://github.com/pgjdbc/pgjdbc#get-the-driver) )
 
 ## Build requirements
 
@@ -55,7 +55,7 @@ Git repository typically contains -SNAPSHOT versions, so you can use the followi
 
 ## Releasing a new version
 
-Note: full procedure is described in [PgJDBC release procedure](http://github.com/pgjdbc/pgjdbc#releasing-a-new-version)
+Note: full procedure is described in [PgJDBC release procedure](https://github.com/pgjdbc/pgjdbc/blob/master/CONTRIBUTING.md#releasing-a-new-version)
 
 Before releasing jre7-compatible version, update `pgjdbc` submodule to a release version
 Update pgjdbc git submodule to current master version:
@@ -101,7 +101,7 @@ list.  Make sure your patch includes additional unit tests demonstrating and
 testing any new features. In the case of bug fixes, where possible include a
 new unit test that failed before the fix and passes after it.
 
-For information on working with GitHub, see: http://help.github.com/articles/fork-a-repo and http://learn.github.com/p/intro.html.
+For information on working with GitHub, see: https://help.github.com/articles/fork-a-repo.
 
 ### Testing
 
