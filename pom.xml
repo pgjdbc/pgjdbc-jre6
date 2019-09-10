@@ -10,7 +10,7 @@
     <artifactId>postgresql</artifactId>
     <packaging>bundle</packaging>
     <name>PostgreSQL JDBC Driver - JDBC 4.0</name>
-    <version>42.2.7.jre6-SNAPSHOT</version>
+    <version>42.2.7.jre6</version>
     <description>Java JDBC 4.0 (JRE 6+) driver for PostgreSQL database</description>
 
     <properties>
@@ -73,7 +73,7 @@
         <url>https://github.com/pgjdbc/pgjdbc-jre6</url>
         <connection>scm:git:https://github.com/pgjdbc/pgjdbc-jre6.git</connection>
         <developerConnection>scm:git:git@github.com:pgjdbc/pgjdbc-jre6.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>REL42.2.7.jre6</tag>
   </scm>
 
     <profiles>
